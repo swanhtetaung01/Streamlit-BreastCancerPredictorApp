@@ -1,1 +1,1 @@
-# Streamlit-BreastCancerPredictorApp
+This project is an interactive Breast Cancer Predictor web app built with Streamlit. It uses a Logistic Regression model trained on the Breast Cancer Wisconsin dataset to predict whether a breast mass is benign or malignant based on cytology lab measurements.
