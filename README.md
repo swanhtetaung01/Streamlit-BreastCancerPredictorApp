@@ -27,7 +27,7 @@ BreastCancerPredictorApp/
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/yourusername/BreastCancerPredictorApp.git
+git clone https://github.com/swanhtetaung01/Streamlit-BreastCancerPredictorApp.git
 cd BreastCancerPredictorApp
 pip install -r requirements.txt
 
