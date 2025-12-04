@@ -112,7 +112,7 @@ def add_sidebar():
     <div style="position: fixed; bottom: 10px; left: 50%; 
                 transform: translateX(-50%); 
                 z-index: 999;">
-        Created by Swan Htet Aung
+        By Swan Htet Aung
     </div>
     """, unsafe_allow_html=True)
     
