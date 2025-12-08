@@ -3,6 +3,14 @@ import pickle
 import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
+import streamlit as st
+
+st.markdown("""
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es2018"></script>
+    <script src="https://cdn.jsdelivr.net/npm/core-js-bundle@3.6.5/minified.js"></script>
+""", unsafe_allow_html=True)
+
+
 
 def get_clean_data():
     data = pd.read_csv("data/data.csv")
@@ -108,6 +116,14 @@ def add_sidebar():
             value=float(data[key].mean()),
             
         )
+
+    st.markdown("""
+    <div style="position: fixed; bottom: 10px; left: 50%; 
+                transform: translateX(-50%); 
+                z-index: 999;">
+        Created by Swan Htet Aung
+    </div>
+    """, unsafe_allow_html=True)
     
     return input_dict
 
