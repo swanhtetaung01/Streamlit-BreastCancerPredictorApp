@@ -1,6 +1,12 @@
+[global]
+browser.serverAddress = "0.0.0.0"
+
+[theme]
+base = "light"
+
 [client]
-showErrorDetails = false
 toolbarMode = "minimal"
+showErrorDetails = false
 
 [server]
 enableWebsocketCompression = false
