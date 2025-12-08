@@ -11,7 +11,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
 def get_clean_data():
     data = pd.read_csv("data/data.csv")
     
@@ -116,12 +115,11 @@ def add_sidebar():
             value=float(data[key].mean()),
             
         )
-
     st.markdown("""
     <div style="position: fixed; bottom: 10px; left: 50%; 
                 transform: translateX(-50%); 
                 z-index: 999;">
-        Created by Swan Htet Aung
+        By Swan Htet Aung
     </div>
     """, unsafe_allow_html=True)
     
