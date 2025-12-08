@@ -7,7 +7,9 @@ import streamlit as st
 
 st.markdown("""
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es2018"></script>
+    <script src="https://cdn.jsdelivr.net/npm/core-js-bundle@3.6.5/minified.js"></script>
 """, unsafe_allow_html=True)
+
 
 def get_clean_data():
     data = pd.read_csv("data/data.csv")
