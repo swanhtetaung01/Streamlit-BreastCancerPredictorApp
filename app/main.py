@@ -3,6 +3,11 @@ import pickle
 import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
+import streamlit as st
+
+st.markdown("""
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es2018"></script>
+""", unsafe_allow_html=True)
 
 def get_clean_data():
     data = pd.read_csv("data/data.csv")
